@@ -22,8 +22,10 @@ public class Main {
                 else if (i == 2) {
                     System.out.print("Take one down and pass it around, " + (i-1) + " bottle of beer on the wall.\n\n");
                 }
-                //If i is any other arbitrary number, print standard plural form
-                System.out.print("Take one down and pass it around, " + (i-1) + " bottles of beer on the wall.\n\n");
+                else {
+                    //If i is any other arbitrary number, print standard plural form
+                    System.out.print("Take one down and pass it around, " + (i - 1) + " bottles of beer on the wall.\n\n");
+                }
             }
             else {
                 //If i is 1, then you just need to print the singular text form and the next "0 bottles of beer on the wall"
